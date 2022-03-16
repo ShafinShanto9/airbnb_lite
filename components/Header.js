@@ -25,7 +25,7 @@ const Header = () => {
           {/* Right Side */}
           <div className='flex items-center space-x-4 justify-end text-gray-500 ml-5 md:ml-0'>
               <p className='hidden md:inline'>Become a host</p>
-              <GlobeAltIcon className='h-6' />
+              <GlobeAltIcon className='h-6 animate-spin' />
 
               <div className='flex items-center border-2 rounded-full p-3 space-x-2'>
                  <MenuIcon className='h-6 '/> 
