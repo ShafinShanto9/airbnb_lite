@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Banner from '../components/Banner'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
+import LargeCard from '../components/LargeCard'
 import { MediumCard } from '../components/MediumCard'
 import SmallCard from '../components/smallCard'
 
@@ -39,7 +41,18 @@ const Home = ({exploreData, cardsData}) => {
           }
           </div>
         </section>
+
+        {/* Large Card Components */}
+
+        <LargeCard
+          img="https://links.papareact.com/4cj"
+          title="The Greatest Outdoor"
+          description="Wish List By AirBnb"
+          buttonText = "Get Inspired"
+        />
       </main>
+
+      <Footer/>
     </div>
   )
 }
