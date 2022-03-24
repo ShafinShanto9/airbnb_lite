@@ -3,7 +3,7 @@ import Banner from '../components/Banner'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import LargeCard from '../components/LargeCard'
-import  MediumCard  from '../components/MediumCard'
+import MediumCard from '../components/MediumCard'
 import SmallCard from '../components/SmallCard'
 
 const Home = ({exploreData, cardsData}) => {
@@ -12,6 +12,7 @@ const Home = ({exploreData, cardsData}) => {
       <Head>
         <title>AirBnb Lite</title>
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet"></link>
       </Head>
       
       <Header />

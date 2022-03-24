@@ -5,6 +5,7 @@ import { useRouter } from 'next/router'
 import { format } from 'date-fns'
 import InfoCard from '../components/infoCard'
 import { title } from 'process'
+import MapBox from '../components/MapBox'
 
 
 const Search = ({ searchResults }) => {
@@ -60,7 +61,11 @@ const Search = ({ searchResults }) => {
               }   
           </div>
           
-            </section>
+        </section>
+
+        <section className='hidden lg:inline-flex lg:min-w-[600px]'>
+          <MapBox searchResults={ searchResults}/>
+        </section>
           </main>
 
         <Footer/>
