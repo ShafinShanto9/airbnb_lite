@@ -1,10 +1,9 @@
+import { format } from 'date-fns'
+import { useRouter } from 'next/router'
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-import { useRouter } from 'next/router'
-import { format } from 'date-fns'
-import InfoCard from '../components/infoCard'
-import { title } from 'process'
+import InfoCard from '../components/InfoCard'
 import MapBox from '../components/MapBox'
 
 
